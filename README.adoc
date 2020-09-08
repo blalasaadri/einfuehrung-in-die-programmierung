@@ -2,7 +2,7 @@
 :author: Alasdair Collinson
 :orgname: ITB Consulting GmbH
 :revdate: 2020-09-08
-:revnumber: 0.1
+:revnumber: 0.2
 :doctype: article
 :icons: font
 :source-highlighter: rouge
@@ -32,16 +32,16 @@ image::assets/GitHub_download_menu.png[title="Menü, um die Materialien aus GitH
 Wenn man hier auf _Download ZIP_ klickt, erhält man den gesamten Inhalt des Repositories als ZIP-Datei.
 
 Wie sehe ich die Webseite, die hiermit gebaut wird?::
-Im Verzeichnis link:JavaScript[] finden sich zwei Dateien:
+Im Verzeichnis link:JavaScript[] finden sich zwei Arten von Dateien:
 +
   - link:JavaScript/index.html[index.html]
-  - link:JavaScript/script.js[script.js]
+  - Dateien, die mit zwei Ziffern beginnen und auf `skript.js` enden.
 +
-Diese beiden Datein ergeben gemeinsam eine kleine Webseite.
+Diese Datein ergeben gemeinsam eine kleine Webseite.
 Dabei teilen sie sich die Aufgaben auf:
 +
   - Die HTML-Datei sorgt dafür, dass eine Struktur der Webseite vorgegeben wird.
-  - Die JS-Datei kann den Inhalt die Darstellung der HTML-Datei im Browser manipulieren.
+  - Die JS-Dateien kann den Inhalt die Darstellung der HTML-Datei im Browser manipulieren.
 +
 Um das Ergebnis zu sehen, kann man einfach die Datei link:JavaScript/index.html[index.html] in einem Browser (z.B. Edge, Firefox oder Chrome) öffnen.
 Falls man an einer der beiden Dateien etwas ändert, werden diese Änderungen erst nach einem erneuten Laden der Seite im Browser sichtbar.

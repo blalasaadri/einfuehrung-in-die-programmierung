@@ -1,5 +1,6 @@
 'use strict';
 
+// Dieses Skript wird beim Laden der Seite ausgeführt.
 const meinSkript = () => {
   // Wir geben eine Nachricht in der JavaScript-Konsole aus.
   console.log('Hallo, Konsole!');
