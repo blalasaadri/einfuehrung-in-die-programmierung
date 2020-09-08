@@ -7,6 +7,16 @@
 :icons: font
 :source-highlighter: rouge
 :lang: de
+:toc-title: Inhaltsverzeichnis
+:caution-caption: Achtung
+:important-caption: Wichtig
+:note-caption: Hinweis
+:tip-caption: Tipp
+:warning-caption: Warnung
+:appendix-caption: Anhang
+:example-caption: Beispiel
+:figure-caption: Abbildung
+:table-caption: Tabelle
 
 Dieses https://de.wikipedia.org/wiki/Repository[Repository] enthält Materialien für die Schulung "Einführung in die Programmierung" bei der https://www.itb-consulting.de/[ITB Consulting GmbH].
 
