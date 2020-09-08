@@ -1,0 +1,19 @@
+= Materialien für die Schulung _"Einführung in die Programmierung"_
+:author: Alasdair Collinson
+:orgname: ITB Consulting GmbH
+:revdate: 2020-09-08
+:revnumber: 0.1
+:doctype: article
+:icons: font
+:source-highlighter: rouge
+:lang: de
+
+Dieses https://de.wikipedia.org/wiki/Repository[Repository] enthält Materialien für die Schulung "Einführung in die Programmierung" bei der https://www.itb-consulting.de/[ITB Consulting GmbH].
+
+Wie lade ich die Materialien herunter?::
+Auf https://github.com/blalasaadri/einfuehrung-in-die-programmierung[GitHub] findet sich der Knopf image:assets/GitHub_code_button.png[title="Code", 80] welcher ein Menü öffnet.
+Das Menü sieht wie folgt aus:
++
+image::assets/GitHub_download_menu.png[title="Menü, um den Code herunterzuladen", 500]
++
+Wenn man hier auf _Download ZIP_ klickt, erhält man den gesamten Inhalt des Repositories als ZIP-Datei.
