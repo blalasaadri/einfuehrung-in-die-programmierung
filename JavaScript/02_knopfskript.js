@@ -20,7 +20,7 @@ const promptKnopfGedrueckt = () => {
   const antwort = window.prompt('Wie viel ist 2 x 3?');
 
   // Mehr Informationen zu Number.isInteger() unter https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
-  if (Number.isInteger(antwort) !== true) {
+  if (Number.isInteger(parseInt(antwort)) !== true) {
     window.alert(`Aber aber, "${antwort}" ist doch keine Zahl -_-`);
     return;
   }
@@ -32,4 +32,22 @@ const promptKnopfGedrueckt = () => {
   } else {
     window.alert(`Falsch, die richtige Antwort ist nicht ${antwortAlsZahl} sondern ${2 * 3} :-(`);
   }
+}
+
+const farbenfrage = () => {
+  const schlumpf = window.prompt('Welche Farbe hat das Herz?');
+
+  if (schlumpf.toLowerCase() === 'rot') {
+    window.alert("Richtig!");
+  } else {
+    window.alert("Falsch.");
+  }
+
+  // Wir holen uns den Eintrag, der im index.html als <div id="dynamischer_inhalt"></div> eingetragen ist.
+  const dynamischerInhalt = document.getElementById("dynamischer_inhalt");
+
+  // Wir erstellen ein neues Element, welches in das Element "dynamischerInhalt" eingefügt wird.
+  const begruessung = document.createElement('span');
+  begruessung.textContent = `Die eingegebene Farbe war ${schlumpf}`;
+  dynamischerInhalt.appendChild(begruessung);
 }
